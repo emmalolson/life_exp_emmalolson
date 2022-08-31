@@ -1,0 +1,27 @@
+  ---
+  title: "Life Expectancy Analysis"
+  author: "Emma Olson"
+  date: "2022-08-04"
+  output: 
+  html_document:
+  df_print: paged
+  urlcolor: blue
+  ---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=TRUE)
+```
+
+```{r}
+library(tidyverse)
+library(gapminder)
+```
+
+```{r}
+data("gapminder_unfiltered")
+
+```
+  # Abstract
+
+  Here, I re-examine the analysis of Oeppen and Vaupel (2002).
+
+  # Analysis
